@@ -1,5 +1,5 @@
 .hero-index {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/hero_index_2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/hero_index_2_1.jpg');
   /*<span>Photo by <a href="https://unsplash.com/@thecreativv?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">The Creativv</a> on <a href="https://unsplash.com/s/photos/japanese-food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
 }
 
@@ -13,7 +13,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/hero_index_2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/hero_index_2_1.jpg');
 }
 
 .hook-button {
