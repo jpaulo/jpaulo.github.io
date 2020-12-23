@@ -20,6 +20,11 @@
         e.preventDefault();
         location.href = "https://wa.me/55999999999";
       });
+
+      $(".staff-button").click((e) => {
+        e.preventDefault();
+        scrollToAnchor("#staffSection");
+      });
     });
   });
 }(jQuery));
