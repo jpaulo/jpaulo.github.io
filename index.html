@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Shima Izakaya</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/font-awesome.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/index.css">
   </head>
@@ -21,16 +22,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link nav-link-top-menu" href="/delivery.html" style="color: white;">Delivery</a>
+            <a class="nav-link nav-link-top-menu delivery-button" style="color: white; cursor: pointer;">Delivery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-top-menu" href="/menu.html" style="color: white;">Cardápio</a>
+            <a class="nav-link nav-link-top-menu menu-button" style="color: white; cursor: pointer">Cardápio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-top-menu" href="/staff.html" style="color: white;">A Equipe</a>
+            <a class="nav-link nav-link-top-menu" style="color: white; cursor: pointer">A Equipe</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-top-menu" href="/contact.html" style="color: white;">Contato</a>
+            <a class="nav-link nav-link-top-menu contact-button" style="color: white; cursor: pointer">Contato</a>
           </li>
         </ul>
       </div>
@@ -61,7 +62,7 @@
     </section>
     <section style="margin-bottom: 150px;">
       <div class="container">
-        <div class="row">
+        <div class="row" style="margin-bottom: 50px;">
           <div class="col-12 text-center">
             <h3 style="text-align: center; color: grey; font-weight: bolder;">Nossa proposta é trazer o melhor da</h3>
             <h3 style="text-align: center; color: grey; font-weight: bolder;">culinária japonesa e okinawana pra pertinho de você</h3>
@@ -69,16 +70,16 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-6 text-center">
-            <button class="custom-button">Conheça</button>
+          <div class="col-12 col-sm-6 text-center" style="margin-bottom: 20px;">
+            <button class="hook-button contact-button" href="">Conheça</button>
           </div>
-          <div class="col-12 col-sm-6 text-center">
-            <button class="custom-button">Delivery</button>
+          <div class="col-12 col-sm-6 text-center" style="margin-bottom: 20px;">
+            <button class="hook-button delivery-button">Delivery</button>
           </div>
         </div>
       </div>
     </section>
-    <section style="margin-bottom: 250px;">
+    <section id="menuSection" style="margin-bottom: 250px;">
       <div class="hero-food-menu text-center" style="width: 100vw; height: auto; min-height: 300px;">
         <h2 class="" style="color: white; justify-content: center; text-align: center; font-weight: bolder;">Cardápio</h2>
       </div>
@@ -149,7 +150,7 @@
         </div>
       </div>
     </section>
-    <section style="padding: 50px 50px 50px 50px; background-color: #3c342f;">
+    <section id="contactSection" style="padding: 50px 50px 50px 50px; background-color: #3c342f;">
       <h3 style="text-align: center; color: white; font-weight: bolder;">Como chegar</h3>
       <div class="container">
         <div class="row">
@@ -166,7 +167,9 @@
             </div>
             <div class="row">
               <p class="d-none d-sm-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-              <p style="color: white;">Nosso whatsapp: +55 (11) 99988-7766</p>
+              <p class="delivery-button" style="color: white; cursor: pointer;"><i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp;Clique para pedir pelo nosso whatsapp</p>
+              <p style="color: white;">ou ligue para nós e faça seu pedido</p>
+              <p style="color: white;">+55 (11) 99988-7766</p>
             </div>
             <div class="row">
               <h4 style="color: white;">Horário de Funcionamento</h4>
@@ -205,4 +208,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="/assets/js/menu.js"></script>
+  <script src="/assets/js/index.js"></script>
 </html>
