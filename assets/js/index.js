@@ -25,6 +25,14 @@
         e.preventDefault();
         scrollToAnchor("#staffSection");
       });
+
+      $("#gallerySection").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery:{
+          enabled:true
+        }
+      });
     });
   });
 }(jQuery));
