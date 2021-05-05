@@ -18,7 +18,7 @@
 
       $(".delivery-button").click((e) => {
         e.preventDefault();
-        location.href = "https://wa.me/5511947833023";
+        location.href = "https://wa.me/5511911283171";
       });
 
       $(".staff-button").click((e) => {
